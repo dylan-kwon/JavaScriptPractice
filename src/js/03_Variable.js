@@ -5,8 +5,8 @@
  * 3. null: null을 명시적으로 할당받은 상태. (null은 객체로 취급된다.)
  *
  * var: 일반적인 변수, 재선언과 재할당 모두 가능
- * let: 변수지만 값은 재할당 가능 (Java: public static int i = 10)
- * const: 재선언과 재할당 모두 불가능 (Java: public static final int i = 10)
+ * let: 변수 재선언이 불가능하지만, 값은 재할당 할 수 있다.
+ * const: 재선언과 재할당 모두 불가능
  **/
 
 var undefinedValue;

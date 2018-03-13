@@ -21,6 +21,25 @@ console.log("concatArray.sort() = " + concatArrays.sort());                     
 console.log("concatArray.splice() = " + concatArrays.splice(0, 4, '1', '2', '3'));      // startIndex 부터 삭제한 후 값을 추가.
 console.log("concatArray.toString() = " + concatArrays.toString());                     // 배열의 원소를 ,로 구분한 문자열을 리턴
 
+console.log();
+
+// 일반적인 for
 for (let i = 0; i < concatArrays.length; i++) {
     console.log("concatArrays index" + i + " = " + concatArrays[i])
 }
+
+console.log();
+
+// for in (꺼내는 값은
+for (let index in concatArrays) {
+    console.log("concatArrays index" + index + " = " + concatArrays[index]);
+}
+
+console.log();
+
+// for-each: index, value, array를 꺼내며 반복
+concatArrays.forEach((value, index) => {
+    console.log("concatArrays index" + index + " = " + value);
+});
+
+
