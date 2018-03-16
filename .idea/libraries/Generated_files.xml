@@ -2,6 +2,7 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/dist/src/js/07_Loop.js" />
         <item url="file://$PROJECT_DIR$/dist/src/js/08_Function.js" />
         <item url="file://$PROJECT_DIR$/dist/src/js/10_Object(map).js" />
         <item url="file://$PROJECT_DIR$/dist/src/js/11_ModuleUse.js" />
@@ -16,10 +17,12 @@
         <item url="file://$PROJECT_DIR$/dist/src/js/19_ObjectObject.js" />
         <item url="file://$PROJECT_DIR$/dist/src/js/20_DataType.js" />
         <item url="file://$PROJECT_DIR$/dist/src/js/21_Reference.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/js/22_Class.js" />
         <item url="file://$PROJECT_DIR$/dist/src/js/module/MathModule.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/dist/src/js/07_Loop.js" />
       <root url="file://$PROJECT_DIR$/dist/src/js/08_Function.js" />
       <root url="file://$PROJECT_DIR$/dist/src/js/10_Object(map).js" />
       <root url="file://$PROJECT_DIR$/dist/src/js/11_ModuleUse.js" />
@@ -34,6 +37,7 @@
       <root url="file://$PROJECT_DIR$/dist/src/js/19_ObjectObject.js" />
       <root url="file://$PROJECT_DIR$/dist/src/js/20_DataType.js" />
       <root url="file://$PROJECT_DIR$/dist/src/js/21_Reference.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/js/22_Class.js" />
       <root url="file://$PROJECT_DIR$/dist/src/js/module/MathModule.js" />
     </CLASSES>
     <SOURCES />
