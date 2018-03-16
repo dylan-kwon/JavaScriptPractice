@@ -1,0 +1,41 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/dist/src/js/08_Function.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/js/10_Object(map).js" />
+        <item url="file://$PROJECT_DIR$/dist/src/js/11_ModuleUse.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/js/12_Callback.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/js/13_Arguments.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/js/14_Object.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/js/15_GlobalObject.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/js/16_This.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/js/17_Extends.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/js/18_Prototype.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/js/19_Object(Object).js" />
+        <item url="file://$PROJECT_DIR$/dist/src/js/19_ObjectObject.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/js/20_DataType.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/js/21_Reference.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/js/module/MathModule.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/dist/src/js/08_Function.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/js/10_Object(map).js" />
+      <root url="file://$PROJECT_DIR$/dist/src/js/11_ModuleUse.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/js/12_Callback.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/js/13_Arguments.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/js/14_Object.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/js/15_GlobalObject.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/js/16_This.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/js/17_Extends.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/js/18_Prototype.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/js/19_Object(Object).js" />
+      <root url="file://$PROJECT_DIR$/dist/src/js/19_ObjectObject.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/js/20_DataType.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/js/21_Reference.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/js/module/MathModule.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

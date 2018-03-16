@@ -30,9 +30,18 @@ for (let i = 0; i < concatArrays.length; i++) {
 
 console.log();
 
-// for in (꺼내는 값은
+// for in (꺼내는 값은 인덱스)
 for (let index in concatArrays) {
     console.log("concatArrays index" + index + " = " + concatArrays[index]);
+}
+
+console.log();
+
+// for of (꺼내는 값은 원소)
+let i = 0;
+for (let value of concatArrays) {
+    console.log("concatArrays value" + i + " = " + value);
+    i++;
 }
 
 console.log();

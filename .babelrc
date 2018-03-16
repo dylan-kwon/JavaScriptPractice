@@ -1,8 +1,10 @@
 {
-  "babel": {
-    "presets": [
-      "es2015"
-    ]
-  }
+  "presets": [
+    "env"
+  ],
+  "plugins": [
+    "dynamic-import-node",
+    "syntax-dynamic-import",
+    "dynamic-import-webpack"
+  ]
 }
-
