@@ -1,10 +1,12 @@
 {
   "presets": [
-    "env"
+    "env",
+    "flow"
   ],
   "plugins": [
     "dynamic-import-node",
     "syntax-dynamic-import",
-    "dynamic-import-webpack"
+    "dynamic-import-webpack",
+    "transform-flow-strip-types"
   ]
 }

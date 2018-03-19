@@ -1,3 +1,5 @@
+// @flow
+
 /**
  * ES6에 추가된 class keyword
  **/
@@ -19,7 +21,7 @@ class ParentClass {
     /**
      * 일반 메소드
      */
-    method() {
+    method(): void {
         console.log("ParentClass.intValue = " + this.intValue)
     }
 
