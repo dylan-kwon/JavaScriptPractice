@@ -11,10 +11,16 @@
 class ParentClass {
 
     /**
+     * 전역변수
+     */
+    mIntValue: number;
+    static TAG: string = "ParentClass";
+
+    /**
      * 생성자
      */
-    constructor(intValue) {
-        this.intValue = intValue;
+    constructor(intValue: number) {
+        this.mIntValue = intValue;
     }
 
 
@@ -22,7 +28,7 @@ class ParentClass {
      * 일반 메소드
      */
     method(): void {
-        console.log("ParentClass.intValue = " + this.intValue)
+        console.log("ParentClass.intValue = " + this.mIntValue)
     }
 
 
@@ -42,11 +48,17 @@ class ParentClass {
 class ChildClass extends ParentClass {
 
     /**
+     * 전역변수
+     */
+    mStrValue: string;
+    static TAG: string = "ChildClass";
+
+    /**
      * 생성자 오버라이드
      */
-    constructor(intValue, strValue) {
+    constructor(intValue: number, strValue: string) {
         super(intValue);
-        this.strValue = strValue;
+        this.mStrValue = strValue;
     }
 
     /**
@@ -54,7 +66,7 @@ class ChildClass extends ParentClass {
      */
     method() {
         super.method();
-        console.log("ParentClass.strValue = " + this.strValue)
+        console.log("ParentClass.strValue = " + this.mStrValue)
     }
 
     static staticMethod() {
@@ -62,7 +74,6 @@ class ChildClass extends ParentClass {
     }
 
 }
-
 
 let childClassInstance = new ChildClass(1, "strValue");
 
@@ -74,3 +85,6 @@ ChildClass.staticMethod();
 console.log();
 
 childClassInstance.method();
+
+console.log("parentTag = " + ParentClass.TAG);
+console.log("childTag = " + ChildClass.TAG);

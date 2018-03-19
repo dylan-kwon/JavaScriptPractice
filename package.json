@@ -10,6 +10,7 @@
   },
   "scripts": {
     "flow": "flow",
+    "flow-check":"flow check ./src",
     "build": "babel src/ -d lib/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

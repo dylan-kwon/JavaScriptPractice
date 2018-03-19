@@ -5,9 +5,12 @@
 ./src
 
 [libs]
+flow-typed
 
 [lints]
 
 [options]
 
 [strict]
+
+
